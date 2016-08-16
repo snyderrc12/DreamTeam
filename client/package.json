@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rachel Watson",
   "license": "ISC",
   "dependencies": {
     "angular": "^1.5.7",
-    "angular-route": "^1.5.7"
+    "angular-route": "^1.5.7",
+    "bootstrap": "^3.3.7"
   }
 }

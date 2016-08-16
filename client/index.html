@@ -6,14 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
   <!-- Vendor stylesheets -->
-  
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/" >
   <!-- Application stylesheets -->
   <link rel="stylesheet" href="styles/main.css">
 </head>
 <body ng-app="dreamteam">
-  
+
+  <ul class="nav nav-pills">
+    <li role="presentation" class="active"><a href="#">Home</a></li>
+    <li role="presentation"><a href="#">Profile</a></li>
+    <li role="presentation"><a href="#">Messages</a></li>
+  </ul>
+
   <div ng-view></div>
-  
+
   <!-- Vendor scripts -->
   <script src="node_modules/angular/angular.js"></script>
   <script src="node_modules/angular-route/angular-route.js"></script>
