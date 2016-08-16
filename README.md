@@ -9,5 +9,5 @@ $ cd client
 $ npm install
 $ cd ../server
 $ npm install
-$ node server
+$ npm start
 ```
